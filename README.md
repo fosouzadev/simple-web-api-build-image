@@ -1,6 +1,7 @@
 # simple-web-api-net-core
 
-docker build -t simple-web-api:latest .
+docker build -t fosouzadev/simple-web-api:1.0.0 .
+docker build -t fosouzadev/simple-web-api:latest .
 
 docker run -d -p 8080:8080 --name simple-web-api simple-web-api:latest
 
