@@ -13,8 +13,9 @@ public class SumController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "Sum/Number1/{number1}/Number2/{number2}")]
-    public IActionResult Get(long number1, long number2)
+    [HttpGet]
+    [Route("Number1/{number1}/Number2/{number2}")]
+    public IActionResult Get([FromRoute] long number1, [FromRoute] long number2)
     {
         long sum = number1 + number2;
 
