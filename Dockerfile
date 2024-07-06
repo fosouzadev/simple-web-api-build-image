@@ -8,4 +8,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /App
 COPY --from=build-env /App/Out .
 ENTRYPOINT ["dotnet", "SimpleWebApi.dll"]
-EXPOSE 5000
+EXPOSE 8080
