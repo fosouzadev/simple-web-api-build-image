@@ -3,12 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWebApi", "SimpleWebApi\SimpleWebApi.csproj", "{885357F5-9CFE-44D9-A08D-C32B03DD646B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebApi", "SimpleWebApi\SimpleWebApi.csproj", "{885357F5-9CFE-44D9-A08D-C32B03DD646B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{382CF999-D652-40E0-B90D-FCD12F810B44}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -30,5 +34,11 @@ Global
 		{885357F5-9CFE-44D9-A08D-C32B03DD646B}.Release|x64.Build.0 = Release|Any CPU
 		{885357F5-9CFE-44D9-A08D-C32B03DD646B}.Release|x86.ActiveCfg = Release|Any CPU
 		{885357F5-9CFE-44D9-A08D-C32B03DD646B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2FF30F9-C5C4-4155-B3D8-F286138961C2}
 	EndGlobalSection
 EndGlobal
