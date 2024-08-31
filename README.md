@@ -3,13 +3,14 @@
 ## Construir imagem
 Utilizando o terminal, entre na pasta raiz do projeto e execute o seguinte comando:
 ```
-docker build -t simple-web-api:latest .
+docker build -t fosouzadev/simple-web-api:1.0.0 .
+docker build -t fosouzadev/simple-web-api:latest .
 ```
 
 ## Construir e executar container
 Utilize o seguinte comando para criar e executar o container da aplicação:
 ```
-docker run -it -p 8080:8080 --name simple-web-api simple-web-api:latest
+docker run -d -p 8080:8080 --name simple-web-api simple-web-api:latest
 ```
 
 ## Requisição de teste
